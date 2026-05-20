@@ -1,0 +1,56 @@
+/* BACKGROUND */
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #68e963;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.category-title{
+    color:#ffffff !important;
+    font-weight:bold;
+    font-size:22px;
+}
+
+/* GLASS CARD */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+/* HOVER ANIMATION */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* INPUT */
+.form-control {
+    background: rgba(254, 2, 2, 0.963);
+    border: none;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+/* BUTTON */
+.btn-primary {
+    background: linear-gradient(45deg,#6a11cb,#2575fc);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg,#11998e,#38ef7d);
+    border: none;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+    .card{
+        margin:10px;
+    }
+}
+
